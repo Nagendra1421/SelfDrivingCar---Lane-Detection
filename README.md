@@ -12,6 +12,8 @@ The goals / steps of this project are the following:
 ### Reflection
 
 ### 1. My pipeline.
+![alt text](https://github.com/Nagendra1421/SelfDrivingCar---Lane-Detection/blob/master/test_images/solidWhiteCurve_after.jpg)![alt text](https://github.com/Nagendra1421/SelfDrivingCar---Lane-Detection/blob/master/test_images/solidWhiteRight_after.jpg)
+![alt text](https://github.com/Nagendra1421/SelfDrivingCar---Lane-Detection/blob/master/test_images/solidYellowCurve2_after.jpg)
 
 First, I selected the color of the desired region and then reduces noise to identify the boundaries of the region. After that, I applied the Grayscale transform to get image in one color and then applied Gaussian blur.
 Then that image grayscaled image passed to canny edge detection algorithm. After getting Edges and getting lane line region, isolated features of particular shape within an image is calulated using Hough Transform.
@@ -20,6 +22,7 @@ Before applying this pipeline, I passed grayscaled image after applying gaussion
 [![Watch the video](https://i.ytimg.com/vi/ca4LhJGvoYo/hqdefault.jpg)](https://youtu.be/ca4LhJGvoYo)
 
 Final Video After applying pipeline
+
 [![Watch the video](https://i9.ytimg.com/vi/2Iw32hkBwUU/hqdefault.jpg?sqp=CLTRuOIF&rs=AOn4CLCqhNRAVlNU1RZoHviSOhFpVddzWA)](https://youtu.be/2Iw32hkBwUU)
 
 ### 2. Identify potential shortcomings with your current pipeline
